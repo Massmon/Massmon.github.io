@@ -14,8 +14,8 @@ title = 'Massimo Centofanti'
   email = 'centomas@engineering.upenn.edu'
   discord = 'greatestcenturion'
   github = 'https://github.com/Massmon'
-  linkedin = ''           # e.g. 'https://www.linkedin.com/in/yourname'
-  resumePDF = ''          # e.g. 'files/resume.pdf' (put the PDF in static/files/)
+  linkedin = 'https://www.linkedin.com/in/massimo-centofanti-90608028b'
+  resumePDF = 'files/resume.pdf'
 
 [menus]
   [[menus.main]]
