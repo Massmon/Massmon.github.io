@@ -83,6 +83,11 @@ img { max-width: 100%; }
   border: 1px solid transparent;
 }
 .navitem img { width: 52px; height: 52px; transition: transform .1s; }
+.navitem .noicon {
+  width: 52px; height: 52px; display: flex; align-items: center; justify-content: center;
+  font: bold 11px "Trebuchet MS", Verdana, sans-serif; letter-spacing: .04em;
+  color: #f0d9a8; border: 2px dashed rgba(240,217,168,.55); border-radius: 50%;
+}
 .navitem:hover img { transform: translateY(-3px); }
 .navitem:hover, .navitem.on { background: var(--navhover); border-color: #22303d; }
 .navitem.on span { text-decoration: underline; }

@@ -49,6 +49,13 @@ title = 'Massimo Centofanti'
     [menus.main.params]
       icon = 'images/nav/5.png'
 
+  [[menus.main]]
+    name = 'Daily Log'
+    pageRef = '/log'
+    weight = 60
+    [menus.main.params]
+      icon = 'images/nav/6.png'
+
 [markup.goldmark.renderer]
   unsafe = true
 
