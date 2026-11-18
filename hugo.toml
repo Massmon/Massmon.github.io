@@ -14,8 +14,8 @@ title = 'Massimo Centofanti'
   email = 'centomas@engineering.upenn.edu'
   discord = 'greatestcenturion'
   github = 'https://github.com/Massmon'
-  linkedin = ''           # e.g. 'https://www.linkedin.com/in/yourname'
-  resumePDF = ''          # e.g. 'files/resume.pdf' (put the PDF in static/files/)
+  linkedin = 'https://www.linkedin.com/in/massimo-centofanti-90608028b'
+  resumePDF = 'files/resume.pdf'
 
 [menus]
   [[menus.main]]
@@ -48,6 +48,13 @@ title = 'Massimo Centofanti'
     weight = 50
     [menus.main.params]
       icon = 'images/nav/5.png'
+
+  [[menus.main]]
+    name = 'Daily Log'
+    pageRef = '/log'
+    weight = 60
+    [menus.main.params]
+      icon = 'images/nav/6.png'
 
 [markup.goldmark.renderer]
   unsafe = true
